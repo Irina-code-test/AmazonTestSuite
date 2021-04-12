@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>AmazonTest</artifactId>
+    <artifactId>AmazonTestOLD</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -24,7 +24,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.3.0</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -33,11 +32,17 @@
             <version>2.0.0-alpha1</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.3.0</version>
-            <scope>compile</scope>
+            <groupId>com.googlecode.maven-download-plugin</groupId>
+            <artifactId>download-maven-plugin</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.0.0-beta-2</version>
         </dependency>
 
     </dependencies>
